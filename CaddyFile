@@ -1,0 +1,5 @@
+http://:8080 {
+    reverse_proxy https://asianf4rmer.cf {
+        header_up Host asianf4rmer.cf
+    }
+}
